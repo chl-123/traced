@@ -1,6 +1,7 @@
 public class Country {
     private String countryName;
     private String quarantine_data;
+    private Location[] location;
 
     public String getCountryName() {
         return countryName;
@@ -16,5 +17,13 @@ public class Country {
 
     public void setQuarantine_data(String quarantine_data) {
         this.quarantine_data = quarantine_data;
+    }
+
+    public Location[] getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location[] location) {
+        this.location = location;
     }
 }

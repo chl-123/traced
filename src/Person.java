@@ -6,7 +6,7 @@ public class Person {
     private Country toCountry;
     private Country myCountry;
     private Date data;
-
+    private Location location;
     public String getName() {
         return name;
     }
@@ -46,5 +46,13 @@ public class Person {
 
     public void setData(Date data) {
         this.data = data;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
     }
 }
